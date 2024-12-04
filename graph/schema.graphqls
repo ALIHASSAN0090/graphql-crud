@@ -1,0 +1,9 @@
+
+
+type Joblisting{
+  _id : ID!,
+  title: String!,
+  description: String!,
+  company : String!,
+  url : String!
+}
