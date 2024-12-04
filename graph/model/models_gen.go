@@ -33,3 +33,7 @@ type UpdateJobListingInput struct {
 	Company     *string `json:"company,omitempty"`
 	URL         *string `json:"url,omitempty"`
 }
+
+type DB struct{
+	client *mongo.Client
+}
